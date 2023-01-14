@@ -21,7 +21,6 @@
 }
 #nav-list a {
   color: white;
-  text-align: center;
   border-bottom: 4px solid white;
 
 }
@@ -49,6 +48,3 @@
 	color: white;
 }
 
-.navbar-collapse {
-
-}
