@@ -1,24 +1,54 @@
-.navbar {
-	background-color: gray;
-	height: 100px;
+#header-nav {
+	background-color: grey;
 	border-radius: 0;
 	border: 0;
 }
-.navbar-brand {
-  padding-top: 20px;
-}
-
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 {
   font-family: 'Times New Roman', Georgia, sans-serif;
   color: black;
-
+  font-size: 1.5em;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 0;
   margin-bottom: 0;
-  line-height: 0.8;
-  
+  line-height: .75;
 }
+.navbar-brand a:link, .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-nav {
+	margin: 0px -15px;
+	background-color: black;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  border-bottom: 4px solid white;
+
+}
+#nav-list a:hover {
+  color: red;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+@media (min-width: 768px) {
+	
+	#collapsable-nav {
+	display: none!important;
+}
+
+}
+
 #content {
 	padding: 10px 15px 10px 15px;
-	background-color: grey;
+	background-color: steelblue;
+	color: white;
+}
+
+.navbar-collapse {
+
 }
